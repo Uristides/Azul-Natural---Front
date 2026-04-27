@@ -1,0 +1,60 @@
+/* Contenedor principal */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Espaciado superior */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-top: 3.5rem;
+  padding: 0;
+}
+
+/* Grid principal */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+/* Columna izquierda */
+.about-left {
+  grid-column: span 1;
+}
+
+/* Sticky card */
+.about-sticky {
+  position: sticky;
+  top: 1.5rem;
+}
+
+/* Columna derecha */
+.about-right {
+  grid-column: span 1;
+}
+
+/* ========================= */
+/* Responsive (lg >= 1024px) */
+/* ========================= */
+
+@media (min-width: 1024px) {
+  .about-container {
+    margin-top: 4rem;
+  }
+
+  .about-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-left {
+    grid-column: span 1;
+  }
+
+  .about-right {
+    grid-column: span 2;
+  }
+}

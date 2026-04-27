@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "year": "2020 - Present",
+    "position": "Frontend Developer",
+    "company": "Facebook",
+    "image": "/assets/facebook.svg",
+    "URL" : "https://www.facebook.com/share/18nGtA1Hiv/"
+  },
+  {
+    "id": 2,
+    "year": "2016 - 2018",
+    "position": "Intern Developer",
+    "company": "Instagram",
+    "image": "/assets/instagram.svg",
+    "URL" : "https://www.instagram.com/aznatural.ad?igsh=MWswYjkwdGt0M2ltNQ=="
+  },
+  {
+    "id": 1,
+    "year": "2018 - 2020",
+    "position": "UI/UX Designer",
+    "company": "Whatsapp",
+    "image": "/assets/whatsapp.svg",
+    "URL" : "https://wa.me/qr/ZI5NLJOPGIFZG1"
+  },
+  {
+    "id": 4,
+    "year": "2015 - 2016",
+    "position": "Junior Developer",
+    "company": "Tiktok",
+    "image": "/assets/tiktok.svg",
+    "URL" : ""
+  },
+  {
+    "id": 5,
+    "year": "2014 - 2015",
+    "position": "Trainee",
+    "company": "Maps",
+    "image": "/assets/maps.svg",
+    "URL" : ""
+  }
+]

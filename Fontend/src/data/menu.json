@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Inicio",
+      "link": "/",
+      "image": "/assets/house.svg"
+    },
+    {
+      "id": 2,
+      "title": "Nosotros",
+      "link": "/nosotros",
+      "image": "/assets/user.svg"
+    },
+    {
+      "id": 3,
+      "title": "Fechas",
+      "link": "/fechas",
+      "image": "/assets/layers.svg"
+    },
+    {
+      "id": 4,
+      "title": "Terapias",
+      "link": "/terapias",
+      "image": "/assets/briefcase.svg"
+    },
+    {
+      "id": 5,
+      "title": "Contacto",
+      "link": "/contacto",
+      "image": "/assets/message.svg"
+    }
+  ]
+}

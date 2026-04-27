@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Azul Natura",
+    "link": "https://www.facebook.com/share/18nGtA1Hiv/",
+    "image": "/assets/facebook.svg"
+  },
+  {
+    "id": 2,
+    "title": "aznatural.ad",
+    "link": "https://www.instagram.com/aznatural.ad?igsh=MWswYjkwdGt0M2ltNQ==",
+    "image": "/assets/instagram.svg"
+  }
+]

@@ -1,0 +1,148 @@
+.testimonials {
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 20px;
+  padding: 1.5rem;
+  position: relative;
+}
+
+.testimonials__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.testimonials__heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.testimonials__subheading {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.testimonials__controls-desktop {
+  display: none;
+  gap: 0.5rem;
+}
+
+.testimonials__carousel {
+  margin-top: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonials__track {
+  display: flex;
+}
+
+.testimonials__track--animated {
+  transition: transform 0.5s ease;
+}
+
+.testimonials__slide {
+  flex: 0 0 100%;
+}
+
+.testimonials__card {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.testimonials__avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.testimonials__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials__content {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.25rem;
+}
+
+.testimonials__quote {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.testimonials__footer {
+  margin-top: 1rem;
+}
+
+.testimonials__name {
+  font-weight: 600;
+}
+
+.testimonials__role {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.testimonials__button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  cursor: pointer;
+}
+
+.testimonials__button:hover {
+  background: var(--hover);
+}
+
+.testimonials__controls-mobile {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.testimonials__dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.testimonials__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d1d5db;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonials__dot--active {
+  width: 24px;
+  border-radius: 20px;
+  background: #3b82f6;
+}
+
+/* Responsive */
+@media (min-width: 1024px) {
+  .testimonials__controls-desktop {
+    display: flex;
+  }
+
+  .testimonials__controls-mobile {
+    display: none;
+  }
+
+  .testimonials__card {
+    grid-template-columns: auto 1fr;
+    align-items: start;
+  }
+}
