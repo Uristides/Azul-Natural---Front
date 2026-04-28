@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import rightArrow from "/assets/arrow-right.svg";
 import workData from "../data/work.json";
-import styles from "../css/ServiceOffer.css";
+import ServiceOffer from "../css/ServiceOffer.css";
 
 export default function ServiceOffer() {
   const workLimit = workData.slice(0, 4);
