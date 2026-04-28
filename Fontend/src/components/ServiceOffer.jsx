@@ -2,17 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import rightArrow from "/assets/arrow-right.svg";
 import workData from "../data/work.json";
-import "../css/ServiceOffer.css"; // Importa el CSS global
 
 export default function ServiceOffer() {
   const workLimit = workData.slice(0, 4);
 
   return (
     <section
-      className="section"
+      className="bg-[var(--card)] border border-[var(--border)] text-[var(--text)] rounded-xl p-3 flex flex-col gap-6 lg:col-span-2"
       aria-labelledby="services-offer-heading"
     >
-      <div className="header">
+      <div className="flex flex-col gap-2 lg:justify-between">
         <h2 id="services-offer-heading" className="text-2xl font-semibold">
           Proximas Fechas
         </h2>
@@ -20,13 +19,13 @@ export default function ServiceOffer() {
         <nav aria-label="All services">
           <Link
             to="/fechas"
-            className="link"
+            className="inline-flex items-center gap-2 text-blue-500 font-semibold hover:underline focus:outline-none focus-visible:ring focus-visible:ring-blue-500 rounded"
             aria-label="See all services"
           >
             <span>Ver mas</span>
             <img
               src={rightArrow}
-              alt=""
+              alt=""              /* decorative */
               aria-hidden="true"
               className="w-4 h-4"
               loading="lazy"
@@ -41,15 +40,15 @@ export default function ServiceOffer() {
         {workLimit.map((work) => (
           <li key={work.id} className="list-none">
             <article
-              className="card"
+              className="bg-[var(--card)] border border-[var(--border)] text-[var(--text)] rounded-xl p-5 flex flex-col gap-3"
               aria-labelledby={`service-title-${work.id}`}
             >
-              <figure className="figure">
+              <figure className="bg-[var(--card)] border border-[var(--border)] text-[var(--text)] rounded-lg px-5 py-8 flex items-center justify-center">
                 <img
                   src="Imagen de proxima fecha"
-                  alt="Ejemplo"
+                  alt="Ejemplo"                 /* decorative brand/service icon */
                   aria-hidden="true"
-                  className="icon"
+                  className="w-14 h-14 object-contain"
                   loading="lazy"
                   decoding="async"
                 />
