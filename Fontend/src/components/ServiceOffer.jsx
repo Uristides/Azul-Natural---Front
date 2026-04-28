@@ -2,17 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import rightArrow from "/assets/arrow-right.svg";
 import workData from "../data/work.json";
-import ServiceOffer from "../css/ServiceOffer.css";
+import "../css/ServiceOffer.css"; // Importa el CSS global
 
 export default function ServiceOffer() {
   const workLimit = workData.slice(0, 4);
 
   return (
     <section
-      className={styles.section}
+      className="section"
       aria-labelledby="services-offer-heading"
     >
-      <div className={styles.header}>
+      <div className="header">
         <h2 id="services-offer-heading" className="text-2xl font-semibold">
           Proximas Fechas
         </h2>
@@ -20,7 +20,7 @@ export default function ServiceOffer() {
         <nav aria-label="All services">
           <Link
             to="/fechas"
-            className={styles.link}
+            className="link"
             aria-label="See all services"
           >
             <span>Ver mas</span>
@@ -41,15 +41,15 @@ export default function ServiceOffer() {
         {workLimit.map((work) => (
           <li key={work.id} className="list-none">
             <article
-              className={styles.card}
+              className="card"
               aria-labelledby={`service-title-${work.id}`}
             >
-              <figure className={styles.figure}>
+              <figure className="figure">
                 <img
                   src="Imagen de proxima fecha"
                   alt="Ejemplo"
                   aria-hidden="true"
-                  className={styles.icon}
+                  className="icon"
                   loading="lazy"
                   decoding="async"
                 />
