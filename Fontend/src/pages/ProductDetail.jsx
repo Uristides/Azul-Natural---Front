@@ -71,15 +71,15 @@ export default function ProductDetail() {
           description="The requested project could not be found."
         />
         <div className="py-12 text-center">
-          <h1 className="text-2xl font-semibold mb-2">Product not found</h1>
+          <h1 className="text-2xl font-semibold mb-2">Articulo no encontrado</h1>
           <p className="text-gray-600 mb-6">
-            We couldn’t find a product with that URL.
+           Este articulo no esta dispnible en estos momentos.
           </p>
           <button
             onClick={() => navigate(-1)}
             className="text-blue-600 hover:underline"
           >
-            ← Go Back
+            ← Volver Atras
           </button>
         </div>
       </>
