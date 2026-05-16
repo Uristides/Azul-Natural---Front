@@ -103,7 +103,7 @@ export default function ContactForm() {
         <Button
           bgColor="bg-blue-600"
           textColor="text-white"
-          title="Send Message"
+          title="Enviar"
         />
       </form>
     </div>
