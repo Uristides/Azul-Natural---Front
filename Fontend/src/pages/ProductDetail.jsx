@@ -221,7 +221,7 @@ export default function ProductDetail() {
               </div>
             )}
 
-            {/* External URL */}
+            {/* External URL
             {product.url && (
               <p>
                 <a
@@ -235,7 +235,7 @@ export default function ProductDetail() {
                 </a>
               </p>
             )}
-
+ */}
             {/* Prev / Next */}
             {prev && next && (
               <nav
