@@ -12,7 +12,7 @@ export default function ContactDetails() {
       <div className="">
         <div className="flex flex-col gap-5">
           <h2 className="text-2xl lg:text-4xl font-semibold">
-            Contactanos
+            Contactanos (Beta)
           </h2>
           <p className=" lg:text-xl">
            Estamos para ayudarte

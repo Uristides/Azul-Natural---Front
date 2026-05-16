@@ -21,7 +21,7 @@ export default function ContactForm() {
         <div className="grid lg:grid-cols-2 gap-5">
           <div className="flex flex-col gap-3">
             <label htmlFor="name" id="name">
-              Name
+              Nombre
             </label>
             <input
               type="text"
@@ -35,7 +35,7 @@ export default function ContactForm() {
           </div>
           <div className="flex flex-col gap-3">
             <label htmlFor="email" id="email">
-              Email
+              Correo
             </label>
             <input
               type="text"
@@ -52,7 +52,7 @@ export default function ContactForm() {
         <div className="grid lg:grid-cols-2 gap-5">
           <div className="flex flex-col gap-3">
             <label htmlFor="subject" id="subject">
-              Subject
+              Asunto
             </label>
             <input
               type="text"
@@ -66,7 +66,7 @@ export default function ContactForm() {
           </div>
           <div className="flex flex-col gap-3">
             <label htmlFor="budget" id="budget">
-              Budget
+              Presupuesto
             </label>
             <select
               name="budget"
@@ -86,7 +86,7 @@ export default function ContactForm() {
 
         <div className="flex flex-col gap-3">
           <label htmlFor="comment" id="comment">
-            Comment
+            Comentario
           </label>
           <textarea
             type="text"
