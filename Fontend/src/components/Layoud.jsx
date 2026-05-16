@@ -5,9 +5,9 @@ const Layoud = () => {
   return (
 <section class="hero">
   <div class="overlay">
-    <img src="https://res.cloudinary.com/dk3wbra6k/image/upload/v1777193936/Logo_en_circulo_nmw8av.png" alt="Logo Spa Tzintzuni" class="logo" />
+    <img src="https://res.cloudinary.com/dq8vglwnz/image/upload/v1778933736/Nego_sin_fondo_ruqath.png" alt="Logo Spa Tzintzuni" class="logo" />
   </div>
-  <img  src="https://res.cloudinary.com/dk3wbra6k/image/upload/v1777200226/Camillas_1_et5jfy.jpg" alt='Fondo del layoud' 
+  <img  src="https://res.cloudinary.com/dq8vglwnz/image/upload/v1778932930/Masaje_relajante_1_gqtb70.jpg" alt='Fondo del layoud' 
         class="background-resource"/>
 </section>
   )

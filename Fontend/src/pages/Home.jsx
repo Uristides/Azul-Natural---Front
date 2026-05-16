@@ -11,15 +11,15 @@ import Layoud from "../components/Layoud";
 // Hero/gallery images with descriptive alt
 const images = [
   {
-    src: "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776938925/WhatsApp_Image_2026-04-23_at_4.03.44_AM_vro7rj.jpg",
+    src: "https://res.cloudinary.com/dq8vglwnz/image/upload/v1778933092/Piedras_Calientes_material_02_jctfte.jpg",
     alt: "City skyline at dusk with reflections on water",
   },
   {
-    src: "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776938925/WhatsApp_Image_2026-04-23_at_4.03.46_AM_msnscw.jpg",
+    src: "https://res.cloudinary.com/dq8vglwnz/image/upload/v1778933092/Sales_de_epson_2_ru8eva.jpg",
     alt: "Abstract gradient texture in vibrant colors",
   },
   {
-    src: "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776938925/WhatsApp_Image_2026-04-23_at_4.03.42_AM_1_d1o2lp.jpg",
+    src: "https://res.cloudinary.com/dq8vglwnz/image/upload/v1778933091/WhatsApp_Image_2026-04-23_at_12.30.57_AM_2_jhk4nw.jpg",
     alt: "Snow-capped mountains surrounding a calm lake",
   },
 ];
