@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [tailwindcss(), react()],
   preview: {
     host: true,
-    allowedHosts: ["azul-natural-front-production.up.railway.app"]
+    allowedHosts: ["tzintzuni.up.railway.app"]
   }
 });
