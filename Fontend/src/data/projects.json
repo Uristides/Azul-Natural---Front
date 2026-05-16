@@ -3,7 +3,7 @@
     "id": 1,
     "category": "Fisico",
     "title": "Terapia Geotermal",
-    "body": "Una terapia con piedras calientes",
+    "body": "Beneficios : Mejora la circulación, relaja el músculos y da un mejor descanso",
     "images": [
       "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776926896/WhatsApp_Image_2026-04-23_at_12.30.58_AM_2_lvl0cf.jpg",
       "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776927076/Piedras_Calientes_04_hwunjo.jpg",
@@ -15,9 +15,9 @@
   },
   {
     "id": 2,
-    "category": "Fisico",
+    "category": "Fisico", 
     "title": "Terapia con ventosas",
-    "body": "Una terapia con ventosas",
+    "body": "Beneficios : Ayuda a mejorará la circulación sanguínea ,alivia dolor muscular, mejora la  flexibilidad",
     "images": [
       "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776928338/Ventosas_2_j85d8m.jpg"
     ],
@@ -28,7 +28,7 @@
     "id": 3,
     "category": "Fisico",
     "title": "Masaje facial",
-    "body": "Masaje Facial relajante",
+    "body": "Beneficios : Disminuye el dolor de cabeza relaja, cuello y cráneo",
     "images": [
       "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776929185/Masaje_facial_nc3kky.jpg"
     ],
@@ -39,7 +39,7 @@
     "id": 4,
     "category": "Fisico",
     "title": "Masaje Relajante",
-    "body": "Un masaje relajante",
+    "body": "Beneficios : Aumenta la relajación del sistema nervioso, mente y cuerpo, mejora la frecuencia cardíaca y la presión arterial, disminuye el dolor he inflación",
     "images": [
       "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776928839/Masaje_relajante_1_lopzgs.jpg"
     ],
@@ -50,7 +50,7 @@
     "id": 5,
     "category": "Fisico",
     "title": "Sales de Epsom",
-    "body": "Una terapia detox",
+    "body": " Beneficios : Ayuda a la relajación muscular se utiliza para aliviar dolores musculares contracturas y reducir inflamaciones en esguinces o golpes",
     "images": [
       "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776928131/Sales_de_Epson_sdnfks.jpg"
     ],
