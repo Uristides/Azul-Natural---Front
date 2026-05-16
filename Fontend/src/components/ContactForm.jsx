@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function ContactForm() {
   const budgets = [
-    "Select budget...",
+    "Selecciona Tu Presupuesto...",
     "$500",
     "$1000-$2000",
     "$2000-$4000",
