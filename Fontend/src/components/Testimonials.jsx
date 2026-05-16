@@ -76,7 +76,7 @@ export default function Testimonials({
       <div className="testimonials__header">
         <div>
           <h2 className="testimonials__heading">
-            Aprobado Por Más De 100 Clientes
+            Aprobado Por Más De X Clientes (Beta)
           </h2>
           <p className="testimonials__subheading">Algunas reseñas</p>
         </div>

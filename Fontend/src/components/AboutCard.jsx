@@ -25,7 +25,7 @@ export default function AboutCard() {
   return (
     <section className="about-card" aria-labelledby="about-heading">
       <figure className="about-card-figure">
-        <h3 className="about-card-small-title">Proxima Fecha...</h3>
+        <h3 className="about-card-small-title">Mas Fechas Proximamente...</h3>
 
         <img
           src="https://res.cloudinary.com/dq8vglwnz/image/upload/v1778934397/WhatsApp_Image_2026-04-23_at_12.30.58_AM_2_b84lry.jpg"
@@ -41,12 +41,12 @@ export default function AboutCard() {
       </figure>
 
       <h2 id="about-heading" className="about-card-title">
-        Dia de Conexion Con Mama
+        Paquetes y Retiros
       </h2>
 
       <p className="about-card-text">
-        Ven a nuestro dia preparado para la Mamá. <br />
-        Aprende, relajate y Disfruta!!
+        Estate al pendiente de las proximas fechas <br />
+        Con un nivel le personalizacion increible!!
       </p>
 
       <div className="about-card-actions" role="group" aria-label="Event actions">

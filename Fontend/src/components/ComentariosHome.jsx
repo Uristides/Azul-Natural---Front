@@ -7,7 +7,7 @@ export default function CommentExperience() {
     <div className="comment-wrapper">
       <div className="comment-card">
         <h2 className="comment-title">
-          Reacciones 🎉
+          Reacciones 🎉 (Beta)
         </h2>
 
         <div className="comment-scroll-viewport">

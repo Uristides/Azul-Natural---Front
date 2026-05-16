@@ -43,7 +43,7 @@ export default function Faq() {
   return (
     <section aria-labelledby="faq-heading">
       <h2 id="faq-heading" className="text-xl lg:text-4xl font-semibold mb-4">
-        Frequently Asked Questions
+        Preguntas Frecuentes
       </h2>
 
       <ul className="flex flex-col gap-5" role="list">
