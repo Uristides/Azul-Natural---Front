@@ -28,7 +28,7 @@ export default function AboutCard() {
         <h3 className="about-card-small-title">Proxima Fecha...</h3>
 
         <img
-          src="https://res.cloudinary.com/dk3wbra6k/image/upload/v1776929701/Home_wfryhu.jpg"
+          src="https://res.cloudinary.com/dq8vglwnz/image/upload/v1778934397/WhatsApp_Image_2026-04-23_at_12.30.58_AM_2_b84lry.jpg"
           alt="Home"
           className="about-card-image"
           loading="lazy"
