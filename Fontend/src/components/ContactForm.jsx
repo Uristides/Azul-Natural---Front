@@ -27,7 +27,7 @@ export default function ContactForm() {
               type="text"
               name="name"
               id="name"
-              placeholder="Enter your name"
+              placeholder="Ingresa Nombre"
               className="px-5 py-4 shadow rounded-lg bg-[var(--card)]
                 border border-[var(--border)]
                 text-[var(--text)]"
@@ -41,7 +41,7 @@ export default function ContactForm() {
               type="text"
               name="email"
               id="email"
-              placeholder="Enter your email"
+              placeholder="Ingresa Correo"
               className="px-5 py-4 shadow rounded-lg bg-[var(--card)]
                 border border-[var(--border)]
                 text-[var(--text)]"
@@ -58,7 +58,7 @@ export default function ContactForm() {
               type="text"
               name="subject"
               id="subject"
-              placeholder="Subject"
+              placeholder="Tu Presupuesto"
               className="px-5 py-4 shadow rounded-lg bg-[var(--card)]
                 border border-[var(--border)]
                 text-[var(--text)]"
@@ -92,7 +92,7 @@ export default function ContactForm() {
             type="text"
             name="comment"
             id="comment"
-            placeholder="Type details about your inquiry"
+            placeholder="Alguna inquietud extra"
             cols="50"
             rows="5"
             className="px-5 py-4 shadow rounded-lg bg-[var(--card)]
