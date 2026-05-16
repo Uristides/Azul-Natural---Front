@@ -133,10 +133,10 @@ export default function Testimonials({
 
         <div className="testimonials__controls-mobile">
           <button onClick={prev} className="testimonials__button">
-            ← Prev
+            ←
           </button>
           <button onClick={next} className="testimonials__button">
-            Sig →
+            →
           </button>
         </div>
 
