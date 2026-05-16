@@ -170,7 +170,7 @@ export default function GallerySlider({
       </button>
       <button
         type="button"
-        aria-label="Next slide"
+        aria-label="Siguiente"
         onClick={next}
         disabled={atEnd}
         className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/80 dark:bg-neutral-900/80 border border-gray-300 dark:border-neutral-700 shadow px-3 py-2 hover:bg-white dark:hover:bg-neutral-900 disabled:opacity-50"

@@ -6,8 +6,8 @@ import "../css/ProjectCards.css";
 export default function ProjectCards({
   pagination = true,
   perPage = 6,
-  prevText = "Prev",
-  nextText = "Next",
+  prevText = "Ant",
+  nextText = "Sig",
 }) {
   const [params, setParams] = useSearchParams();
 

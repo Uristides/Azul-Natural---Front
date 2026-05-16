@@ -86,7 +86,7 @@ export default function Testimonials({
             ← Prev
           </button>
           <button onClick={next} className="testimonials__button">
-            Next →
+            Sig →
           </button>
         </div>
       </div>
@@ -136,7 +136,7 @@ export default function Testimonials({
             ← Prev
           </button>
           <button onClick={next} className="testimonials__button">
-            Next →
+            Sig →
           </button>
         </div>
 
