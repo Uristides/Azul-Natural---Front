@@ -6,7 +6,7 @@ import Head from "../lib/Head";
 const SITE_URL = "https://priscy-orcin.vercel.app";
 const COVER_URL = "https://priscy-orcin.vercel.app/og-cover.jpg";
 const LOGO_URL = "https://priscy-orcin.vercel.app/logo.png";
-const TITLE = "Blog — Azul Natural";
+const TITLE = "Blog — Spa Tzintzuni";
 const DESCRIPTION =
   "Explore UI/UX, full-stack development, branding, and product design projects.";
 
@@ -22,7 +22,7 @@ export default function Blog() {
     primaryImageOfPage: { "@type": "ImageObject", url: COVER_URL },
     publisher: {
       "@type": "Organization",
-      name: "Azul Natural",
+      name: "Spa Tzintzuni",
       logo: { "@type": "ImageObject", url: LOGO_URL },
     },
   };
@@ -59,7 +59,7 @@ export default function Blog() {
         title={TITLE}
         description={DESCRIPTION}
         canonical={SITE_URL}
-        og={{ url: SITE_URL, image: COVER_URL, siteName: "Azul Natural" }}
+        og={{ url: SITE_URL, image: COVER_URL, siteName: "Spa Tzintzuni" }}
         twitter={{ image: COVER_URL }}
         jsonLd={jsonLdWebPage}
       />

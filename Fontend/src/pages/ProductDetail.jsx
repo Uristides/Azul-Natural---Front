@@ -67,7 +67,7 @@ export default function ProductDetail() {
     return (
       <>
         <Head
-          title="Project not found — Azul Natural"
+          title="Project not found — Spa Tzintzuni"
           description="The requested project could not be found."
         />
         <div className="py-12 text-center">
@@ -93,9 +93,9 @@ export default function ProductDetail() {
       ? window.location.origin
       : "https://your-domain.com";
   const canonical = `${origin}/terapias/${prodSlug}`;
-  const title = `${product.title} — Azul Natural`;
+  const title = `${product.title} — Spa Tzintzuni`;
   const description =
-    product.body?.slice(0, 160) || "Project case study from Azul Natural.";
+    product.body?.slice(0, 160) || "Project case study from Spa Tzintzuni.";
   const cover = product.coverImage ?? product.images?.[0] ?? "/og-cover.jpg";
   const logo = "/logo.png";
 
@@ -108,7 +108,7 @@ export default function ProductDetail() {
     primaryImageOfPage: { "@type": "ImageObject", url: cover },
     publisher: {
       "@type": "Organization",
-      name: "Azul Natural",
+      name: "Spa Tzintzuni",
       logo: { "@type": "ImageObject", url: logo },
     },
   };
@@ -122,7 +122,7 @@ export default function ProductDetail() {
         og={{
           url: canonical,
           image: cover,
-          siteName: "Azul Natural",
+          siteName: "Spa Tzintzuni",
           title,
           description,
         }}

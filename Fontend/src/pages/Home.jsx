@@ -27,7 +27,7 @@ const images = [
 const SITE_URL = "https://priscy-orcin.vercel.app";
 const COVER_URL = "https://priscy-orcin.vercel.app/og-cover.jpg";
 const LOGO_URL = "https://res.cloudinary.com/dk3wbra6k/image/upload/v1776939244/sin_fondo_con_texto_q3omvg.png";
-const TITLE = "Azul Natural";
+const TITLE = "Spa Tzintzuni";
 const DESCRIPTION =
   "Explore UI/UX, full-stack development, branding, and product design projects.";
 
@@ -41,7 +41,7 @@ export default function Home() {
     primaryImageOfPage: { "@type": "ImageObject", url: COVER_URL },
     publisher: {
       "@type": "Organization",
-      name: "Azul Natural",
+      name: "Spa Tzintzuni",
       logo: { "@type": "ImageObject", url: LOGO_URL },
     },
   };
@@ -52,7 +52,7 @@ export default function Home() {
         title={TITLE}
         description={DESCRIPTION}
         canonical={SITE_URL}
-        og={{ url: SITE_URL, image: COVER_URL, siteName: "Azul Natural" }}
+        og={{ url: SITE_URL, image: COVER_URL, siteName: "Spa Tzintzuni" }}
         twitter={{ image: COVER_URL }}
         jsonLd={jsonLdWebPage}
       />
@@ -70,7 +70,7 @@ export default function Home() {
       <main id="main" className="lg:p-0 flex flex-col gap-5 max-w-7xl mx-auto w-full px-5 lg:px-10" role="main">
         {/* Page heading (only one H1 per page) */}
         <header className="p-0 mt-14 lg:mt-16">
-          <h1 className="sr-only">Azul Natural — Terapias y Servicios</h1>
+          <h1 className="sr-only">Spa Tzintzuni — Terapias y Servicios</h1>
         </header>
 
         {/* Intro grid: About + Featured Projects */}

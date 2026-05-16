@@ -16,7 +16,7 @@ export default function AboutDetails() {
       <div className="about-details-header">
         <div className="about-details-header-top">
           <h2 className="about-details-title">
-            Hola Somos <span className="highlight">Azul Natural</span>
+            Hola Somos <span className="highlight">Spa Tzintzuni</span>
           </h2>
 
           <p className="about-details-badge">
@@ -28,7 +28,7 @@ export default function AboutDetails() {
       </div>
 
       <p className="about-details-description">
-        Somos <strong>Azul Natural</strong>, un{" "}
+        Somos <strong>Spa Tzintzuni</strong>, un{" "}
         <strong>Spa Holistico</strong> con gran repertorio para darle paz a todos tus cuerpos:
         <br /> Fisico, Sentimental, Mental y Espiritual. <br />
         Estamos aqui para darte un tiempo para ti, con avances y relajacion.
@@ -36,7 +36,7 @@ export default function AboutDetails() {
       </p>
 
       <h2 className="about-details-slogan">
-        <span className="highlight">Azul Natural.</span> Equilibrio en ti ✨
+        <span className="highlight">Spa Tzintzuni.</span> Equilibrio en ti ✨
       </h2>
 
       <div className="about-details-stats">
@@ -60,7 +60,7 @@ export default function AboutDetails() {
         height="400"
         loading="lazy"
         className="about-details-map"
-        title="Ubicación Azul Natural"
+        title="Ubicación Spa Tzintzuni"
       ></iframe>
 
     </div>

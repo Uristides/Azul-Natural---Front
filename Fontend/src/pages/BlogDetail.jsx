@@ -37,8 +37,8 @@ export default function BlogDetail() {
     ? `${origin}/blog/${post.slug}`
     : `${origin}/blog/not-found`;
   const title = post
-    ? `${post.title} — Azul Natural`
-    : "Post not found — Azul Natural";
+    ? `${post.title} — Spa Tzintzuni`
+    : "Post not found — Spa Tzintzuni";
   const description = post
     ? (post.excerpt || post.body || "").toString().slice(0, 160)
     : "The requested blog post could not be found.";
@@ -56,7 +56,7 @@ export default function BlogDetail() {
     author: post?.author ? { "@type": "Person", name: post.author } : undefined,
     publisher: {
       "@type": "Organization",
-      name: "Azul Natural",
+      name: "Spa Tzintzuni",
       logo: { "@type": "ImageObject", url: logo },
     },
   };
@@ -88,7 +88,7 @@ export default function BlogDetail() {
           og={{
             url: canonical,
             image: cover,
-            siteName: "Azul Natural",
+            siteName: "Spa Tzintzuni",
             title,
             description,
           }}
@@ -133,7 +133,7 @@ export default function BlogDetail() {
         og={{
           url: canonical,
           image: cover,
-          siteName: "Azul Natural",
+          siteName: "Spa Tzintzuni",
           title,
           description,
         }}
