@@ -91,7 +91,7 @@ export default function NavBar() {
                 className="font-bold text-xl text-gray-900 dark:text-gray-100"
                 onClick={closeMobile}
               >
-                <span className="text-blue-500">Spa</span> tzintzuni
+                <span className="text-blue-500">Spa</span> Tzintzuni
               </Link>
             </div>
 
